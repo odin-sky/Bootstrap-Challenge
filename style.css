@@ -1,0 +1,41 @@
+#mainimg {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	z-index: -1;
+}
+
+#artspace {
+	font-size: 350px;
+	color: #FFFFFF;
+}
+#footers{
+	color: #FFFFFF;
+	text-align: right;
+	margin-top: 520px;
+	margin-right: 20px;
+}
+
+.jumbers {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	z-index: -1;
+}
+
+#MOWDELS {
+	text-align: center;
+	margin-top: 150px;
+
+}
+
+#imagesizer {
+	width: 80%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+}

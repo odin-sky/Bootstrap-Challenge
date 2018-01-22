@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MODALS</title>
+	<!-- Complete CSS from bootstrapcdn.com-->
+	<!-- Copy link href and remove .min to check list of classes for this bootstrap reference on getbootstrap.com 
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	-->
+	<!-- jquery from google-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="bootswatch.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<!--navbar starts here-->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">MODALS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="alertsxz.html">Alerts</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="cardsxz.html">Cards</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="carousel.html">Carousel</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="formsxz.html">Forms</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="jumbotron.html">Jumbotron</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="modalsxz.html">Modals</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="alertsxz.html">Alerts</a>
+          <a class="dropdown-item" href="cardsxz.html">Cards</a>
+          <a class="dropdown-item" href="carousel.html">Carousel</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="formsxz.html">Forms</a>
+          <a class="dropdown-item" href="jumbotron.html">Jumbotron</a>
+          <a class="dropdown-item" href="modalsxz.html">Modals</a>
+        </div>
+      </li>
+      <!--
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+  		-->
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!--navbar ends here-->
+
+<div> 
+<div class="container-fluid">
+	<img id="mainimg" src="img/img5.jpg">
+</div>
+
+<div id="MOWDELS">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  CLICK ME
+</button>
+
+<!-- Modal VERTICALLY CENTERED-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Nothin to see Here!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        t(-_-t)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--LARGE SMALL MODAL-->
+<!-- Large modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img src="img/img1.jpg">
+    </div>
+  </div>
+</div>
+
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <img src="img/img1.jpg">
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Complete Javascript from bootstrapcdn.com-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
