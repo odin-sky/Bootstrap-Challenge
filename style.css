@@ -39,3 +39,10 @@
 	text-align: center;
 	margin: 0 auto;
 }
+
+.transpa {
+
+        background-color: rgba(100, 0, 0, 0.5);
+        
+}
+}
